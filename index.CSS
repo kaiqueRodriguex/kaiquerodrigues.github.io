@@ -1,16 +1,53 @@
-<style>
-      body {
-        font-family: Arial, sans-serif;
-        text-align: center;
-        margin: 50px;
-      }
-   
-h1 {
-  color: gray;
-  cursor pointer;
+.calculadora {
+    width: 320px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #2c3e50;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
 }
- </style>
-</head>
-<h1> Meu Titulo</h1>
-<p id= "paragrafo">Texto inicial</p>
-</html>
+
+#display {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 2em;
+    text-align: right;
+    background: #ecf0f1;
+    border: none;
+    border-radius: 5px;
+}
+
+.teclado {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    background: #34495e;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background: #3d566e;
+}
+
+.limpar {
+    background: #e74c3c;
+}
+
+.igual {
+    background: #2ecc71;
+}
+
+.zero {
+    grid-column: span 2;
+}
