@@ -14,3 +14,8 @@ body {
   width: 260px;
   text-align: center;
 }
+#teclado {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
