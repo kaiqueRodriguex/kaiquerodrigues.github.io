@@ -1,1 +1,16 @@
-
+<style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 50px;
+      }
+   
+h1 {
+  color: gray;
+  cursor pointer;
+}
+ </style>
+</head>
+<h1> Meu Titulo</h1>
+<p id= "paragrafo">Texto inicial</p>
+</html>
