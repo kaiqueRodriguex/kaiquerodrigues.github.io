@@ -27,7 +27,7 @@ display {
   margin-bottom: 10px;
   border-radius: 5px;
 }
-teclado {
+#teclado {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 5px;
