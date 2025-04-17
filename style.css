@@ -6,7 +6,7 @@ body {
   background-color: #222;
   font-family: Arial, sans-serif;
 }
-#calculadora {
+.calculadora {
   background: #333;
   padding: 20px;
   border-radius: 10px;
@@ -14,7 +14,20 @@ body {
   width: 260px;
   text-align: center;
 }
-#teclado {
+display {
+  width: 100%;
+  height: 50px;
+  font-size: 2em;
+  text-align: right;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: #000;
+  color: #fff;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+teclado {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 5px;
